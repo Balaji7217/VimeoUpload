@@ -60,5 +60,13 @@ The class VideoResponse provides response code and json response, see Vimeo API 
 
 ```
 
+Functionality includes : 
+1.Upload videos only between say 9PM to 9AM (when least consumption is expected for existing videos)
+2.Video path will be taken from user input/Command line argument
+3.Maximum video to be upload as 1 - which  can be modify  in batch size based on our need
+4.Existing videos  can be track in property file
+5. Make sure you should give property file path based on your local 
+6.we can test in Java 11 version
+
 ### Support or Contact
 Having trouble with Java Vimeo API 3.4? Contact info@clickntap.com and we’ll help you sort it out.
